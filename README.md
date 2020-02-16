@@ -4,5 +4,5 @@ We have used Google's AutoML Vision to create a machine learning model that dete
 
 The model reached a precision of 90.76%. Upon inspection of the confusion matrix we confirmed our suspicions that glass would often be confused for plastic and vice versa. This prompted us to refine our UI in order to add another layer of reliability to our app. 
 
-
+We used Google's Cloud Vision API to get the labels associated with any image in order to determine object type
 
